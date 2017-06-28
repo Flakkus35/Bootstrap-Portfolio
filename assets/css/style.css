@@ -1,0 +1,199 @@
+
+/* Body and Headers */
+p {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+	line-height: 20px;
+}
+
+h1 {
+	color: #4aaaa5;
+}
+
+body {
+	background-image: url(../images/crossword1.png)
+}
+
+.mainbody {
+	border: 1px solid #dddddd;
+	background: white;
+	margin-bottom: 20px;
+}
+/*--------------------*/
+
+/* Navbar/Heading */
+.head1 {
+	padding-left: 0px;
+}
+
+.navbar-brand {
+	background: #4aaaa5;
+}
+
+.navbar-default .navbar-brand {
+	color: white;
+}
+
+.navbar-default .navbar-brand:hover {
+	background: #4aaaa5;
+	color: #dddddd;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: #dddddd;
+}
+
+.navbar-default {
+	background: #ffffff;
+}
+
+/*-----------------*/
+
+/* Sidebar */
+.panel-title {
+	text-align: center;
+	color: #4aaaa5;
+	font-size: 25px;
+}
+
+.panel-body {
+	text-align: center;
+}
+.github, .stack, .linkedin {
+	margin: 5px;
+}
+/*-----------------*/
+
+/* Footer controls */
+.wrap {
+	min-height: 100%;
+	height: auto;
+	margin: 0 auto -60px;
+}
+
+.footer {
+	height: 60px;
+	background: #737373;
+	text-align: center;
+	color: white;
+	font-size: 12px;
+	border-top: 7px solid #4aaaa5;
+}
+
+.push {
+	height: 60px;
+}
+
+.copyright {
+	position: relative;
+	top: 20px;
+	color: #ffffff;
+}
+/*-----------------*/
+
+/* Contact/Form controls */
+.submit {
+	float: left;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 40px;
+	padding-left: 40px;
+	margin-bottom: 20px;
+	font-size: 20px;
+	color: white;
+	background: #4aaaa5;
+}
+
+.textbox {
+	width: 100%;
+}
+
+input[type=text] {
+	opacity: .5;
+}
+
+textarea {
+	width: 100%;
+	height: 200px;
+}
+
+form {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 20px;
+	color: #777777;
+	margin: 15px;
+}
+/*---------------------*/
+
+/* Portfolio images/text */
+.textimage {
+	font-size: 19px;
+	background: #4aaaa5;
+	background-size: 100%;
+	color: white;
+	position: absolute;
+	top: 65%;
+	width: 335.6px;
+	text-align: center;
+	padding-bottom: 5%;
+	padding-top: 5%;
+}
+
+.hang1, .rpg1, .triv1, .rut1, .rps1, .selfpic {
+	width: 100%;
+}
+
+.pimg {
+	margin: 10px;
+}
+/*-----------------------*/
+
+/* Responsive styling */
+@media screen and (min-width: 769px) {
+	.col-md-6 {
+		width: 47%;
+	}
+}
+
+@media screen and (max-width: 768px) and (min-width: 641px) {
+	.textimage {
+		width: 695px;
+	}
+
+	.col-sm-12 {
+		width: 97%;
+	}
+
+	.selfpic {
+		margin-bottom: 10px;
+	}
+}
+
+@media screen and (max-width: 640px) {
+	.textimage {
+		width: 588.8px;
+	}
+
+	.col-xs-12 {
+		width: 97%;
+	}
+
+	.selfpic {
+		margin-bottom: 10px;
+	}
+
+	.navbar-brand {
+		width: 100%;
+		text-align: center;
+	}
+
+	.navbar-default .navbar-nav>li>a {
+		text-align: center;
+	}
+
+	.nav>li {
+		display: inline-block;
+		width: 32%;
+	}
+}
+/*---------------------*/
