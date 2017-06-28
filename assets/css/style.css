@@ -62,6 +62,10 @@ body {
 .github, .stack, .linkedin {
 	margin: 5px;
 }
+
+.panel-default>.panel-heading {
+	background-color: #ffffff;
+}
 /*-----------------*/
 
 /* Footer controls */
